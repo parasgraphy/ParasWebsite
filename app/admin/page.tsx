@@ -18,6 +18,7 @@ interface Album {
 interface Photo {
   _id: string;
   image: { url: string };
+  url?: string;
   visible: boolean;
   order: number;
   album: { _ref: string };
