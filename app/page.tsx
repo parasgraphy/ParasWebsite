@@ -143,7 +143,7 @@ export default function HomePage() {
           <a
             href="#contact"
             style={{
-              display: "inline-block",
+              display: "inline-flex",
               padding: "clamp(12px, 2vw, 14px) clamp(24px, 4vw, 40px)",
               border: "1px solid #f0e8d8",
               color: "#f0e8d8",
@@ -153,7 +153,7 @@ export default function HomePage() {
               textTransform: "uppercase",
               transition: "all 0.3s",
               minHeight: "48px",
-              display: "inline-flex",
+
               alignItems: "center",
             }}
             onMouseEnter={(e) => {
